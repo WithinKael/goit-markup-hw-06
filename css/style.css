@@ -638,7 +638,7 @@ address {
 }
 
 .form-container {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-container-label {
@@ -764,12 +764,18 @@ address {
 }
 
 .checkbox-custom {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   margin-right: 8px;
-  border: 1px solid var(--navy-blue-modal);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  transition: background-color, border, fill;
+  transition-duration: var(--timing-duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .checkbox-icon {
