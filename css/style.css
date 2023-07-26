@@ -787,7 +787,9 @@ address {
 }
 
 .input-checked:checked + .checkbox-label .checkbox-custom {
-  border: 1px solid transparent;
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
 }
 
 .input-checked:checked + .checkbox-label .checkbox-custom .checkbox-icon {
