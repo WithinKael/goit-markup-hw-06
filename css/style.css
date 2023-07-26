@@ -641,6 +641,10 @@ address {
   margin-bottom: 8px;
 }
 
+.form-container-comment {
+  margin-bottom: 16px;
+}
+
 .form-container-label {
   display: block;
   color: var(--light-slate);
