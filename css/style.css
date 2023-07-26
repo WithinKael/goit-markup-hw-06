@@ -627,6 +627,10 @@ address {
 }
 /* ======================= FORM ========================= */
 
+.form {
+  padding: 72px 24px 24px 24px;
+}
+
 .modal-text {
   color: var(--navy-blue);
   text-align: center;
@@ -634,10 +638,11 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 
 .form-container {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-container-label {
